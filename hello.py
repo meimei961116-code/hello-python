@@ -1,5 +1,8 @@
+from datetime import date
+
 def main():
-    print("Hello, Python!")
+    today = date.today()
+    print(f"Hello, Python! Today is {today}.")
 
 if __name__ == "__main__":
     main()
